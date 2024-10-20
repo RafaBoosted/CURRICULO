@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [RAFAEL LUIS]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 20px;
+        }
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 0;
+            color: #4CAF50;
+        }
+        h2 {
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+        .skills, .experience, .education {
+            margin: 10px 0;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        .item strong {
+            display: block;
+            color: #4CAF50;
+        }
+        .divider {
+            border-top: 1px solid #e0e0e0;
+            margin: 20px 0;
+        }
+        /* Estilos do formulário */
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        .checkbox-group {
+            margin-bottom: 15px;
+        }
+        .checkbox-group label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var firstName = document.getElementById("first-name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            if (firstName === "" || email === "" || message === "") {
+                alert("Por favor, preencha todos os campos obrigatórios.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="rafa.jpeg" alt="Foto de [RAFAEL LUIS]" width="300" height="200">
+            <div>
+                <h1>Rafael Luis Albuquerque</h1>
+                <p class="contact-info">
+                    Email: rafaeluis111@gmail.com | Telefone: (81) 99680-5603<br>
+                    <a href="https://www.linkedin.com/in/rafael-luis-a164ba2a3" target="_blank">
+                        <img src="linkedin.png" alt="LinkedIn" width="20" height="20">
+                    </a>
+                    <a href="https://github.com/RafaBoosted" target="_blank">
+                        <img src="github.png" alt="GitHub" width="20" height="20">
+                    </a>
+                </p>
+            </div>
+        </header>
+
+        <section class="summary">
+            <h2>Resumo Profissional</h2>
+            <p>Iniciando carreira na área de TI, atualmente cursando Análise e Desenvolvimento de Sistemas. Possui experiência prática como estagiário em TI, com foco em testes de sistemas. É reconhecido pela proatividade, simpatia e rápida adaptação a novos ambientes, destacando-se como um profissional colaborativo e dedicado.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <div class="item">- Canva</div>
+            <div class="item">- Pacote Office</div>
+            <div class="item">- SQL (nível iniciante)</div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="experience">
+            <h2>Experiência Profissional</h2>
+            <div class="item">
+                <strong>Síntese B2B</strong> - Estágio em TI / QA (2021 / 2022)
+                <p>Execução de testes em plataforma de marketplace, elaboração de casos de teste detalhados, e registro e comunicação dos resultados para a equipe de desenvolvimento. Durante o estágio, as atividades eram realizadas exclusivamente no período de férias escolares.</p>
+            </div>
+            <div class="item">
+                <strong>LSA Media Printing</strong> - Cargo (2024)
+                <p>Atuação na área do sistema da empresa, responsável pelo monitoramento de impressoras, garantindo o funcionamento adequado e a solução de eventuais problemas.</p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="education">
+            <h2>Educação</h2>
+            <div class="item">
+                <strong>Faculdade SENAC - Porto Digital</strong> - Análise e Desenvolvimento de Sistemas (Em curso - 2º período)
+            </div>
+            <div class="item">
+                <strong>Escola Técnica Dom Bosco</strong> - Técnico em Adm. e Marketing (Concluído em 2022)
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <div class="divider"></div>
+
+        <section class="languages">
+            <h2>Idiomas</h2>
+            <div class="item">- Inglês: Intermédiario</div>
+            <div class="item">- Espanhol: Intermédiario</div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="contact-form">
+            <h2>Formulário de Freelancer</h2>
+            <form action="mailto:rafaeluis111@gmail.com" method="post" enctype="text/plain" onsubmit="return validateForm()">
+                <label for="first-name">Nome *</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Insira seu nome" required>
+
+                <label for="last-name">Sobrenome</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Insira seu sobrenome">
+
+                <label for="phone">Telefone *</label>
+                <input type="tel" id="phone" name="phone" placeholder="(99)99999-9999" pattern="\(\d{2}\)\d{5}-\d{4}" required>
+
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="Insira seu e-mail" required>
+
+                <label for="message">Mensagem *</label>
+                <textarea id="message" name="message" rows="4" placeholder="Informe o que deseja." required></textarea>
+
+                <label for="language">Língua *</label>
+                <select id="language" name="language" required>
+                    <option value="">Selecione uma língua</option>
+                    <option value="ingles">Inglês</option>
+                    <option value="espanhol">Espanhol</option>
+                    <option value="frances">Francês</option>
+                    <option value="portugues">Português (pt-BR)</option>
+                </select>
+
+                <label for="file-upload">Protótipo (Arquivos aceitos: PDF, DOC, DOCX, JPEG, PNG):</label>
+                <input type="file" id="file-upload" name="file-upload" accept=".pdf,.doc,.docx,.jpeg,.png">
+
+                <label>As linguagens que você prefere? *</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="languages[]" value="java"> Java</label>
+                    <label><input type="checkbox" name="languages[]" value="c++"> C++</label>
+                    <label><input type="checkbox" name="languages[]" value="php"> PHP</label>
+                    <label><input type="checkbox" name="languages[]" value="outra"> Outra</label>
+                </div>
+
+                <label>Banco de Dados Recomendado *</label>
+                <select name="database" required>
+                    <option value="">Selecione um banco de dados</option>
+                    <option value="mysql">MySQL</option>
+                    <option value="postgresql">PostgreSQL</option>
+                    <option value="mongodb">MongoDB</option>
+                    <option value="n/a">N/A</option>
+                    <option value="outra">Outra</option>
+                </select>
+
+                <label for="meeting-shift">Turno para Reuniões *</label>
+                <select id="meeting-shift" name="meeting-shift" required>
+                    <option value="">Selecione um turno</option>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+
+                <label for="suggested-time">Horário Sugerido *</label>
+                <input type="time" id="suggested-time" name="suggested-time" required>
+
+                <label for="delivery-date">Data Prevista de Entrega *</label>
+                <input type="date" id="delivery-date" name="delivery-date" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
